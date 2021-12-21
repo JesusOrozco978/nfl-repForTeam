@@ -10,6 +10,6 @@ app.get('/:id', getTeamById)
 
 app.post('/', bodyParser.json(), saveNewTeam)
 
-app.listen(1337, () => {
+app.listen(1345, () => {
   console.log('Listening on port 1337...') // eslint-disable-line no-console
 })
